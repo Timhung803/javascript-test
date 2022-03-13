@@ -7,3 +7,11 @@ console.log(name);
 
 let firstName = 'tim';
 console.log(firstName)
+
+//start practicing constant 
+let interestRatelet = 0.3;
+interestRatelet = 1;
+console.log(interestRatelet);
+
+const interestRate = 0.3;
+console.log(interestRate);
