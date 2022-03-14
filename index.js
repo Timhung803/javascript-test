@@ -15,3 +15,12 @@ console.log(interestRatelet);
 
 const interestRate = 0.3;
 console.log(interestRate);
+
+//Primitive Type
+let Name = 'Tim'; //String Literal
+let age = 30; // Number Literal
+let isApproved = true; // Boolean Literal
+let lastName; // Undefined
+let selectedcolor = null; //null
+console.log(Name, age, isApproved, lastName, selectedcolor)
+
