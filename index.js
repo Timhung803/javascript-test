@@ -22,5 +22,5 @@ let age = 30; // Number Literal
 let isApproved = true; // Boolean Literal
 let lastName; // Undefined
 let selectedColor = null; //null
-console.log(Name, age, isApproved, lastName, selectedcolor)
+console.log(Name, age, isApproved, lastName, selectedColor)
 
