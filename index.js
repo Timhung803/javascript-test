@@ -24,3 +24,32 @@ let lastName; // Undefined
 let selectedColor = null; //null
 console.log(Name, age, isApproved, lastName, selectedColor)
 
+//Object
+let name1 = 'tim';
+let age1 = 32;
+
+let person = {
+    name1: 'tim',
+    age1: 32
+};
+
+console.log(person);
+console.log(person.name1);
+
+// Dot Notation
+person.name1 = 'tom';
+
+console.log(person.name1);
+
+//Bracket Notation
+let selection = 'name1'
+person[selection] = 'Mary';
+
+console.log(person['name1']);
+
+//array
+let selectedColors = ['red', 'blue'];
+selectedColors[2] = 1;
+console.log(selectedColors.length);
+
+
