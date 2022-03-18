@@ -52,4 +52,24 @@ let selectedColors = ['red', 'blue'];
 selectedColors[2] = 1;
 console.log(selectedColors.length);
 
+//Function
+function greet(name2, lastName1) {
+    console.log('Hello ' + name2 + ' ' + lastName1);
+}
 
+greet('tim', 'hung');
+
+//Performing a task
+function greet(name3, lastName3) {
+    console.log('Hello ' + name3 + ' ' + lastName3);
+}
+
+//Calculating a value
+function square(number) {
+    return number * number;
+}
+
+//let number = square(2);
+//console.log(number);
+
+console.log(square(3));
